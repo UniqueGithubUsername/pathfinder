@@ -1,0 +1,1 @@
+This file should contain useful information about the plugin. Ideally, it should act as an offline version of all the informations that are available at the plugin's page in the Plugins directory.
