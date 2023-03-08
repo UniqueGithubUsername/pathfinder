@@ -15,11 +15,26 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Language file.
+ *  This is the language file for the plugin.
  *
  * @package    pathfinder
  * @copyright
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Pathfinder';
+$string['pluginname'] = 'Pathfinder HTML block';
+$string['pathfinderhtml'] = 'Pathfinder HTML';
+$string['pathfinderhtml:addinstance'] = 'Add a new pathfinder HTML block';
+$string['pathfinderhtml:myaddinstance'] = 'Add a new pathfinder HTML block to the My Moodle page';
+
+public function get_content() {
+    if ($this->content !== null) {
+      return $this->content;
+    }
+
+    $this->content         =  new stdClass;
+    $this->content->text   = 'The content of our SimpleHTML block!';
+    $this->content->footer = 'Footer here...';
+ 
+    return $this->content;
+}

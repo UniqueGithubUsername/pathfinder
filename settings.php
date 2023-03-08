@@ -18,7 +18,6 @@
  * Adds admin settings for the plugin.
  *
  * @package     pathfinder
- * @category    
  * @copyright   
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

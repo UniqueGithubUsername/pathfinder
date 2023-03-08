@@ -15,22 +15,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @package   plugintype_pluginname
- * @copyright 2020, You Name <your@email.address>
+ * @package   pathfinder
+ * @copyright
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = TODO;
-$plugin->requires = TODO;
-$plugin->supported = TODO;   // Available as of Moodle 3.9.0 or later.
-$plugin->incompatible = TODO;   // Available as of Moodle 3.9.0 or later.
-$plugin->component = 'TODO_FRANKENSTYLE';
-$plugin->maturity = MATURITY_STABLE;
-$plugin->release = 'TODO';
+$plugin->component = 'block_pathfinder';
+$plugin->version = 1678287269;
+$plugin->release = 1678287269;
+//$plugin->requires = TODO;
+//$plugin->supported = TODO;   // Available as of Moodle 3.9.0 or later.
+//$plugin->incompatible = TODO;   // Available as of Moodle 3.9.0 or later.
+//$plugin->maturity = MATURITY_STABLE;
 
-$plugin->dependencies = [
-    'mod_forum' => ANY_VERSION,
-    'mod_data' => TODO
-];
+//$plugin->dependencies = [
+//    'mod_forum' => ANY_VERSION,
+//    'mod_data' => TODO
+//];
